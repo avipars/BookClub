@@ -7,6 +7,50 @@
     font-family: Arial;
   }
   
+  .table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 10px;
+  }
+  
+  .row { display:table-row; }
+  
+  .cell {
+    display:table-cell;
+    padding: 5px;
+    /* background-color: gold; */
+  }
+
+  .book{
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+  }
+
+  .products{
+
+  }
+
+  .links{
+      padding: 10px;
+      /* background-color: blue; */
+  }
+
+  .center{
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+ 
+  }
+
+  .footer{
+    min-height: 70%;
+    padding: 10px;
+    min-height: -webkit-calc(100% - 186px);
+    min-height: -moz-calc(100% - 186px);
+    min-height: calc(100% - 186px);
+  }
+
   /* The grid: Four equal columns that floats next to each other */
   .column {
     float: left;
