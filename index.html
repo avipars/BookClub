@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+<div style="text-align:center">
+  <h2>Book Club</h2>
+  <p>Bill Gates Book Selections for Summer 2021</p>
+</div>
+
+<!-- The four columns -->
+<div class="row">
+  <div class="column">
+    <img src="images/obama.jpg" alt="Nature" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/obama.jpg" alt="Snow" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/obama.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="images/obama.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <!-- <img src="images/obama.jpg" alt="Lights" style="width:100%" onclick="myFunction(this);"> -->
+    <a href="https://www.amazon.com/Lights-Out-Delusion-General-Electric/dp/035856705X?_encoding=UTF8&qid=1623689662&sr=8-1&linkCode=li2&tag=akivaschool-20&linkId=5a8e18677dadfd9236037b8c3c02f36c&language=en_US&ref_=as_li_ss_il" target="_blank">
+        <img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=035856705X&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=akivaschool-20&language=en_US" >
+    </a>
+    <img src="https://ir-na.amazon-adsystem.com/e/ir?t=akivaschool-20&language=en_US&l=li2&o=1&a=035856705X" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+  </div>
+</div>
+
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:100%">
+  <div id="imgtext"></div>
+  <div id="link"></div>
+</div>
+
+<script>
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+</script>
+
+</body>
+</html>
