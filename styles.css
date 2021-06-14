@@ -1,101 +1,111 @@
 * {
     box-sizing: border-box;
-  }
-  
-  body {
+}
+
+body {
     margin: 0;
     font-family: Arial;
-  }
-  
-  .table {
+}
+
+.table {
     display: table;
     border-collapse: separate;
     border-spacing: 10px;
-  }
-  
-  .row { display:table-row; }
-  
-  .cell {
-    display:table-cell;
+}
+
+.row {
+    display: table-row;
+}
+
+.cell {
+    display: table-cell;
     padding: 5px;
     /* background-color: gold; */
-  }
+}
 
-  .book{
+.book {
     margin: auto;
     width: 75%;
     padding: 10px;
-  }
+}
 
-  .products{
+.links {
+    padding: 10px;
+    /* background-color: blue; */
+}
 
-  }
-
-  .links{
-      padding: 10px;
-      /* background-color: blue; */
-  }
-
-  .center{
+.center {
     margin: auto;
     width: 75%;
     padding: 10px;
- 
-  }
+    text-align: center;
+}
 
-  .footer{
+.footer {
     min-height: 70%;
     padding: 10px;
     min-height: -webkit-calc(100% - 186px);
     min-height: -moz-calc(100% - 186px);
     min-height: calc(100% - 186px);
-  }
+}
 
-  /* The grid: Four equal columns that floats next to each other */
-  .column {
+
+/* The grid: Four equal columns that floats next to each other */
+
+.column {
     float: left;
     width: 25%;
     padding: 10px;
-  }
-  
-  /* Style the images inside the grid */
-  .column img {
-    opacity: 0.8; 
-    cursor: pointer; 
-  }
-  
-  .column img:hover {
+}
+
+
+/* Style the images inside the grid */
+
+.column img {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.column img:hover {
     opacity: 1;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
     content: "";
     display: table;
     clear: both;
-  }
-  
-  /* The expanding image container */
-  .container {
+}
+
+
+/* The expanding image container */
+
+.container {
     position: relative;
     display: none;
-  }
-  
-  /* Expanding image text */
-  #imgtext {
+}
+
+
+/* Expanding image text */
+
+#imgtext {
     position: absolute;
     bottom: 15px;
     left: 15px;
     color: white;
     font-size: 20px;
-  }
-  
-  /* Closable button inside the expanded image */
-  .closebtn {
+}
+
+
+/* Closable button inside the expanded image */
+
+.closebtn {
     position: absolute;
     top: 10px;
     right: 15px;
     color: white;
     font-size: 35px;
     cursor: pointer;
-  }
+}
