@@ -41,6 +41,13 @@ body {
     text-align: center;
 }
 
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
 .footer {
     min-height: 70%;
     padding: 10px;
@@ -58,9 +65,7 @@ body {
     padding: 10px;
 }
 
-
 /* Style the images inside the grid */
-
 .column img {
     opacity: 0.8;
     cursor: pointer;
@@ -70,42 +75,15 @@ body {
     opacity: 1;
 }
 
-
 /* Clear floats after the columns */
-
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
 
-
 /* The expanding image container */
-
 .container {
     position: relative;
     display: none;
-}
-
-
-/* Expanding image text */
-
-#imgtext {
-    position: absolute;
-    bottom: 15px;
-    left: 15px;
-    color: white;
-    font-size: 20px;
-}
-
-
-/* Closable button inside the expanded image */
-
-.closebtn {
-    position: absolute;
-    top: 10px;
-    right: 15px;
-    color: white;
-    font-size: 35px;
-    cursor: pointer;
 }
