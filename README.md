@@ -4,6 +4,7 @@ Book Clubs and recommendations from Bill Gates and other influential beings
 Our first selection is from Bill Gates: 
 https://avipars.github.io/BookClub/billgates2021.html
 
+And others celebs: https://avipars.github.io/BookClub/
 
 I will consider adding images and more pages in the future!
 
